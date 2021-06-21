@@ -1,0 +1,41 @@
+{
+    "name": "kidsloop-branding",
+    "version": "1.0.0",
+    "description": "Branding specific to Kidsloop clients",
+    "main": "dist/index.js",
+    "types": "types/index.d.ts",
+    "scripts": {
+        "build": "npm run build:js && npm run build:types",
+        "build:js": "webpack",
+        "build:types": "tsc --emitDeclarationOnly",
+        "clean": "rm -r ./dist",
+        "start": "webpack serve"
+    },
+    "license": "ISC",
+    "peerDependencies": {
+        "@material-ui/core": "^4.0.0",
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0"
+    },
+    "devDependencies": {
+        "@types/copy-webpack-plugin": "8.0.0",
+        "@types/debug": "4.1.5",
+        "@types/webpack": "4.41.29",
+        "@types/webpack-dev-server": "3.11.4",
+        "@types/webpack-node-externals": "2.5.1",
+        "@webpack-cli/generators": "2.2.0",
+        "copy-webpack-plugin": "9.0.0",
+        "eslint": "7.28.0",
+        "prettier": "2.3.1",
+        "ts-loader": "^9.2.3",
+        "ts-node": "10.0.0",
+        "typescript": "4.3.4",
+        "webpack": "^5.39.1",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2",
+        "webpack-node-externals": "3.0.0"
+    },
+    "dependencies": {
+        "debug": "^3.0.0"
+    }
+}
