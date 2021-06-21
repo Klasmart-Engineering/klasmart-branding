@@ -28,6 +28,8 @@ export type BrandingOptions = {
 
 export type PrivacyVariant = "link" | "popup";
 
+export type Brands = "KIDSLOOP" | "RUMAH_KISAH";
+
 export interface TypographyProps {
     children: ReactNode;
 }
