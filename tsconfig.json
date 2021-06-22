@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext",
+            "ES6",
+            "ScriptHost"
+        ],
+        "module": "commonjs",
+        "noEmit": false,
+        "outDir": "./dist",
+        "removeComments": true,
+        "rootDir": "./src",
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "ES6",
+        "baseUrl": "./",
+        "paths": {
+            "~types": [
+                "types/index.d.ts"
+            ]
+        },
+        "typeRoots": [
+            "types",
+            "node_modules/@types"
+        ]
+    },
+    "include": [
+        "src/**/*",
+        "**.js"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "src/**/*.test.ts",
+        "src/**/*.test.tsx"
+    ]
+}
