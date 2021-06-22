@@ -8,6 +8,7 @@ const config: BrandingOptions = {
     },
     defaultLocale: "en",
     policies: {
+        help: new URL("https://www.kidsloop.net/en/faq/"),
         refund: new URL("https://kidsloop.net/en/policies/return-policy/"),
         privacy: new URL("https://www.kidsloop.net/policies/terms/"),
         termsAndConditions: new URL(

@@ -13,6 +13,7 @@ export type BrandingOptions = {
         showRegionSelect: boolean;
     };
     policies: {
+        help?: URL;
         refund?: URL;
         termsAndConditions: URL;
         privacy: URL;
