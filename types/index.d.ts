@@ -19,6 +19,19 @@ export type BrandingOptions = {
         privacy: URL;
     };
     webpack: {
+        html: {
+            // HTMLWebpackPlugin only accepts a flat options object (for any custom properties)
+            companyName: string;
+            favicon: string;
+            meta: {
+                author: string;
+                "og:image": {
+                    property: "og:image";
+                    // og:image must be a fully qualified URL
+                    content: string;
+                };
+            };
+        };
         resolve: {
             alias: {
                 "@branding": string;

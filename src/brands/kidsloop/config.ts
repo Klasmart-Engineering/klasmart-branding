@@ -19,6 +19,19 @@ const config: BrandingOptions = {
         showRegionSelect: true,
     },
     webpack: {
+        html: {
+            companyName: "KidsLoop",
+            favicon:
+                "./node_modules/kidsloop-branding/dist/brands/kidsloop/assets/img/primary_logo.svg",
+            meta: {
+                author: "KidsLoop Limited",
+                "og:image": {
+                    property: "og:image",
+                    content:
+                        "https://www.kidsloop.net/wp-content/uploads/2020/09/Asset-1.svg",
+                },
+            },
+        },
         resolve: {
             alias: { "@branding": "kidsloop-branding/dist/brands/kidsloop" },
         },

@@ -32,11 +32,27 @@ const brandingOptions = loadBrandingOptions(process.env.BRAND);
 
 export default {
     //...rest of Webpack configuration
+    plugins: [
+        new HtmlWebpackPlugin({
+            // rest of HtmlWebpackPlugin options
+            ...brandingOptions.webpack.html,
+        }),
+    ],
     resolve: alias: {...brandingOptions.webpack.resolve.alias}
 }
 ```
 
 NB: Webpack documentation on [resolve.alias](https://webpack.js.org/configuration/resolve/#resolvealias)
+
+The *author*, *favicon* and *og:image* meta tags in "index.html" should also be removed,
+to avoid duplication from the `HtmlWebpackPlugin` above.
+
+The `companyName` is exposed in the options object available in the HTML template,
+which could be used in the `<title>` tag.
+
+```html
+<title>Sign In | <%= htmlWebpackPlugin.options.companyName %> Accounts</title>
+```
 
 ### Usage
 
