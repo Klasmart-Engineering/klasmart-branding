@@ -8,10 +8,9 @@ const config: BrandingOptions = {
     },
     defaultLocale: "id",
     policies: {
-        privacy: new URL("https://rumahkisah.id/privacy-policy"),
-        // TODO: update to correct URL once available
+        privacy: new URL("https://rumahkisah.id/kl-privacy-policy/"),
         termsAndConditions: new URL(
-            "https://rumahkisah.id/terms-and-conditions"
+            "https://rumahkisah.id/kl-terms-and-conditions"
         ),
     },
     auth: {
