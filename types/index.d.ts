@@ -5,8 +5,7 @@ export type Locale = "en" | "id" | "zh" | "ko" | "vi";
 export type BrandingOptions = {
     company: {
         name: string;
-        officialName: string;
-        website: URL;
+        copyrightAuthor: string;
     };
     defaultLocale: Locale;
     auth: {

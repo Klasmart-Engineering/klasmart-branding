@@ -3,8 +3,7 @@ import { BrandingOptions } from "~types";
 const config: BrandingOptions = {
     company: {
         name: "Rumah Kisah",
-        officialName: "Rumah Kisah",
-        website: new URL("https://rumahkisah.id/"),
+        copyrightAuthor: "Rumah Kisah powered by KidsLoop",
     },
     defaultLocale: "id",
     policies: {

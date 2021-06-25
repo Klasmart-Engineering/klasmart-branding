@@ -3,8 +3,7 @@ import { BrandingOptions } from "~types";
 const config: BrandingOptions = {
     company: {
         name: "KidsLoop",
-        officialName: "KidsLoop Limited",
-        website: new URL("https://www.kidsloop.net/"),
+        copyrightAuthor: "KidsLoop Limited",
     },
     defaultLocale: "en",
     policies: {
