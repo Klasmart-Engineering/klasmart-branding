@@ -88,7 +88,5 @@ export default function MyComponent(props) {
 
 ## TODO
 
--   Add section on README on how to add a new client
--   Add HTMLWebpackPlugin config object exports
 -   Add Jest & Storybook
 -   Glob entrypoints for all brands in Webpack config
