@@ -19,6 +19,8 @@ npm i git+ssh://git@bitbucket.org/calmisland/kidsloop-branding.git#{tag}
 
 where `tag` corresponds to the desired version.
 
+NB: If you haven't already setup SSH keys with Bitbucket, follow the Bitbucket [instructions](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/).
+
 ### Setup
 
 Add the following to your Webpack configuration.
