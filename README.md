@@ -11,19 +11,6 @@ Collection of all branding-specific assets, including:
 ### Setup
 
 Add the following to your Webpack configuration.
-process.env.BRAND can be one of:
-
--   "KIDSLOOP"
--   "RUMAH_KISAH"
--   undefined
-
-`undefined` will use the default brand (which is "KIDSLOOP")
-
-(You could also hardcode to a specific brand, rather than using `process.env.BRAND` as shown below)
-
-Note the use of `kidsloop-branding`, which points to the root of the library.
-This contains any common (i.e. non-brand specific) code,
-such as Error classes and the `loadBrandingOptions` function.
 
 ```javascript
 const { loadBrandingOptions } = require("kidsloop-branding");
@@ -42,9 +29,23 @@ export default {
 }
 ```
 
+process.env.BRAND can be one of:
+
+-   "KIDSLOOP"
+-   "RUMAH_KISAH"
+-   undefined
+
+`undefined` will use the default brand (which is "KIDSLOOP")
+
+(You could also hardcode to a specific brand, rather than using `process.env.BRAND` as shown above)
+
+Note the use of `kidsloop-branding`, which points to the root of the library.
+This contains any common (i.e. non-brand specific) code,
+such as Error classes and the `loadBrandingOptions` function.
+
 NB: Webpack documentation on [resolve.alias](https://webpack.js.org/configuration/resolve/#resolvealias)
 
-The *author*, *favicon* and *og:image* meta tags in "index.html" should also be removed,
+The _author_, _favicon_ and _og:image_ meta tags in "index.html" should also be removed,
 to avoid duplication from the `HtmlWebpackPlugin` above.
 
 The `companyName` is exposed in the options object available in the HTML template,
@@ -61,16 +62,21 @@ which could be used in the `<title>` tag.
 This allows for simple import paths, which don't need to contain any logic about the current brand, as the complexity is handled by the `kidsloop-branding` library and the Webpack alias.
 
 For example, if `loadBrandingOptions("RUMAH_KISAH")` is used in the Webpack config,
-`@branding/assets/img/primary_logo.svg` resolves to `kidsloop-branding/dist/brands/rumahkisah/assets/img/primary_logo.svg`.
+`@branding/assets/img/primary_logo.svg` resolves to `kidsloop-branding/dist/brands/rumahkisah/assets/img/primary_logo.svg`,
+and `@branding` resolves to `kidsloop-branding/dist/brands/rumahkisah/index.js`.
+
+The `BrandingOptions` object (containing company name etc.) is also exported from the brand `index.js`,
+and available to use in your components.
 
 ```JSX
 import React from "react"
 import PrimaryLogo from "@branding/assets/img/primary_logo.svg"
+import {brandingConfig} from "@branding"
 
 export default function MyComponent(props) {
     return (
         <div>
-            <img alt="Primary Logo" src={PrimaryLogo} height={32} />
+            <img alt=`${brandingConfig.company.name} Logo` src={PrimaryLogo} height={32} />
             <figcaption>Brand specific logo</figcaption>
         </div>
     )
@@ -85,6 +91,7 @@ export default function MyComponent(props) {
 1. Add another `case` to `loadBrandingOptions` in `src/index.ts` for this new brand
 1. Prepare the dist folder with `npm run clean && npm run build`
 1. Upversion the `package.json`
+1. Create a new git tag identical to the new `package.json` version
 
 ## TODO
 
