@@ -8,6 +8,17 @@ Collection of all branding-specific assets, including:
 
 ## How to use
 
+### Installation
+
+`kidsloop-branding` is not published on npm, and is only available from Bitbucket.
+To add as a dependency to your project
+
+```shell
+npm i git+ssh://git@bitbucket.org/calmisland/kidsloop-branding.git#{tag}
+```
+
+where `tag` corresponds to the desired version.
+
 ### Setup
 
 Add the following to your Webpack configuration.
