@@ -3,7 +3,6 @@ import { BrandingOptions } from "~types";
 const config: BrandingOptions = {
     company: {
         name: "Rumah Kisah",
-        copyrightAuthor: "Rumah Kisah powered by KidsLoop",
     },
     defaultLocale: "id",
     policies: {

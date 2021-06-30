@@ -96,6 +96,34 @@ export default function MyComponent(props) {
 }
 ```
 
+To use the brand-specific translated messages, you can use the following pattern
+(only English and Korean shown for brevity):
+
+```typescript
+import { createIntl, createIntlCache } from "react-intl";
+
+import english from "./en.json"
+import korean from "./ko.json"
+
+import brandedEnglish from "@branding/locale/en.json"
+import brandedKorean from "@branding/locale/ko.json"
+
+Object.assign(english, brandedEnglish)
+Object.assign(korean, brandedKorean)
+
+const intlCache = createIntlCache();
+export const fallbackLocale = createIntl(
+  { locale: "en", messages: english },
+  intlCache
+);
+export function getIntl(locale: string) {
+  switch (locale) {
+    case "ko":
+      return createIntl({ locale: "ko", messages: korean }, intlCache);
+    case "en":
+      return createIntl({ locale: "en", messages: english }, intlCache);
+```
+
 ## Adding a new brand
 
 1. Copy the folder structure of an existing brand e.g kidsloop

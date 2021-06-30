@@ -51,6 +51,11 @@ const config: Configuration = {
                     to: path.resolve(outputDir, "brands"),
                     context: "./src/brands",
                 },
+                {
+                    from: "./*/locale/**",
+                    to: path.resolve(outputDir, "brands"),
+                    context: "./src/brands",
+                },
             ],
         }),
     ],
