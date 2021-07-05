@@ -2,5 +2,6 @@
     "emailOrPhone.label": "이메일",
     "emailOrPhone.empty": "Enter an email",
     "emailOrPhone.required": "Email cannot be blank",
-    "emailOrPhone.invalid": "Not a valid email"
+    "emailOrPhone.invalid": "Not a valid email",
+    "ERROR_INPUT_INVALID_FORMAT": "이메일 형식이 올바르지 않습니다"
 }
