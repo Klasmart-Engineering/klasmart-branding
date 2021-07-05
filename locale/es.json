@@ -1,0 +1,6 @@
+{
+    "emailOrPhone.label": "Email",
+    "emailOrPhone.empty": "Enter an email",
+    "emailOrPhone.required": "Email cannot be blank",
+    "emailOrPhone.invalid": "Not a valid email"
+}
