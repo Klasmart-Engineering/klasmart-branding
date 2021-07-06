@@ -3,5 +3,6 @@
     "emailOrPhone.empty": "Enter an email",
     "emailOrPhone.required": "Email cannot be blank",
     "emailOrPhone.invalid": "Not a valid email",
-    "ERROR_INPUT_INVALID_FORMAT": "이메일 형식이 올바르지 않습니다"
+    "ERROR_INPUT_INVALID_FORMAT": "이메일 형식이 올바르지 않습니다",
+    "copyright": "Rumah Kisah powered by KidsLoop Limited (copyright © {year})."
 }
