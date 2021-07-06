@@ -9,7 +9,10 @@
         "build:js": "webpack",
         "build:types": "tsc --emitDeclarationOnly",
         "clean": "rm -r ./dist",
-        "start": "webpack serve"
+        "start": "webpack serve",
+        "preversion": "git checkout master && git pull origin master && npm i",
+        "version": "npm run clean && npm run build && git add -A dist",
+        "postversion": "git push && git push --tags"
     },
     "license": "ISC",
     "peerDependencies": {
