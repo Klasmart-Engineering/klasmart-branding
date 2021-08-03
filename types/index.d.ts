@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export type Locale = "en" | "id" | "zh" | "ko" | "vi" | "es";
+export type Locale = "en" | "es" | "id" | "zh" | "ko" | "vi";
 
 export type BrandingOptions = {
     company: {
