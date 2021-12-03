@@ -1,6 +1,6 @@
 {
     "name": "kidsloop-branding",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Branding specific to Kidsloop clients",
     "main": "dist/index.js",
     "types": "types/index.d.ts",
