@@ -1,0 +1,8 @@
+{
+    "emailOrPhone.label": "이메일",
+    "emailOrPhone.empty": "이메일을 입력하세요",
+    "emailOrPhone.required": "이메일 칸은 비워 둘 수 없습니다.",
+    "emailOrPhone.invalid": "유효한 이메일이 아닙니다.",
+    "ERROR_INPUT_INVALID_FORMAT": "이메일 형식이 올바르지 않습니다",
+    "copyright": "Akademimu는 KidsLoop Limited와 함께합니다 (copyright © {year} )."
+}

@@ -1,0 +1,8 @@
+{
+    "emailOrPhone.label": "อีเมล",
+    "emailOrPhone.empty": "ใส่อีเมล์",
+    "emailOrPhone.required": "อีเมลต้องไม่เว้นว่าง",
+    "emailOrPhone.invalid": "ไม่ใช่อีเมลที่ถูกต้อง",
+    "ERROR_INPUT_INVALID_FORMAT": "คุณไม่ได้ป้อนอีเมลที่ถูกต้อง",
+    "copyright": "Akademimu ขับเคลื่อนโดย KidsLoop Limited (ลิขสิทธิ์ © {year} )"
+}

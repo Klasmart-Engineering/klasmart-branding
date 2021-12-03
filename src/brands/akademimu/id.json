@@ -1,0 +1,8 @@
+{
+    "emailOrPhone.label": "Email",
+    "emailOrPhone.empty": "Masukkan email",
+    "emailOrPhone.required": "Email tidak boleh kosong",
+    "emailOrPhone.invalid": "Alamat email tidak valid",
+    "ERROR_INPUT_INVALID_FORMAT": "Email yang dimasukkan tidak valid",
+    "copyright": "Akademimu powered by KidsLoop Limited (copyright © {year})."
+}
