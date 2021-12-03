@@ -40,7 +40,7 @@ export type BrandingOptions = {
 
 export type PrivacyVariant = "link" | "popup";
 
-export type Brands = "KIDSLOOP" | "RUMAH_KISAH";
+export type Brands = "KIDSLOOP" | "RUMAH_KISAH" | "AKADEMIMU";
 
 export interface TypographyProps {
     children: ReactNode;

@@ -1,0 +1,8 @@
+{
+    "emailOrPhone.label": "邮箱",
+    "emailOrPhone.empty": "输入电子邮件",
+    "emailOrPhone.required": "邮箱不能为空",
+    "emailOrPhone.invalid": "不是一个有效的邮件地址",
+    "ERROR_INPUT_INVALID_FORMAT": "您没有输入有效的邮箱地址",
+    "copyright": "Akademimu由KidsLoop有限公司提供（版权© {year}）。"
+}

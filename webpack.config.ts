@@ -19,6 +19,7 @@ const config: Configuration = {
         index: "./src/index.ts",
         "brands/kidsloop/index": "./src/brands/kidsloop/index.ts",
         "brands/rumahkisah/index": "./src/brands/rumahkisah/index.ts",
+        "brands/akademimu/index": "./src/brands/akademimu/index.ts",
     },
     output: {
         filename: "[name].js",

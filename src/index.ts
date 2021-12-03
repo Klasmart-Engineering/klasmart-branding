@@ -5,6 +5,7 @@ import { BrandingError } from "./errors";
 
 import { default as KidsloopConfig } from "./brands/kidsloop/config";
 import { default as RumahKisahConfig } from "./brands/rumahkisah/config";
+import { default as AkademimuConfig } from "./brands/akademimu/config";
 
 export { BrandingError };
 
@@ -18,6 +19,8 @@ export function loadBrandingOptions(
             return KidsloopConfig;
         case "RUMAH_KISAH":
             return RumahKisahConfig;
+        case "AKADEMIMU":
+            return AkademimuConfig;
         case undefined:
             debug("No brand specified, defaulting to Kidsloop");
             return KidsloopConfig;
