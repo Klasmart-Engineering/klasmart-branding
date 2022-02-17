@@ -1,5 +1,5 @@
 {
-    "name": "kidsloop-branding",
+    "name": "@KL-Engineering/kidsloop-branding",
     "version": "1.0.0",
     "description": "Branding specific to Kidsloop clients",
     "main": "dist/index.js",
@@ -37,5 +37,12 @@
     },
     "dependencies": {
         "debug": "^3.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KL-Engineering/kidsloop-branding"
+    },
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
     }
 }
