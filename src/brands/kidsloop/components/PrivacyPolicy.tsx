@@ -1,5 +1,8 @@
-import Grid from "@material-ui/core/Grid";
-import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import {
+    Grid,
+    Theme,
+} from "@mui/material";
+import { createStyles, makeStyles } from "@mui/styles";
 import React from "react";
 import { PrivacyVariant } from "~types";
 import { Paragraph, Title, List } from "../../../base/components/typography";
