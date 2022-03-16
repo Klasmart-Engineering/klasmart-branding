@@ -10,23 +10,33 @@ Collection of all branding-specific assets, including:
 
 ### Installation
 
-`kidsloop-branding` is not published on npm, and is only available from Bitbucket.
-To add as a dependency to your project
+Add `@kl-engineering:registry=https://npm.pkg.github.com` to the `.npmrc` file in the project root.
+This will enable installing from the internal GitHub packages registry.
 
-```shell
-npm i git+ssh://git@bitbucket.org/calmisland/kidsloop-branding.git#{tag}
+For projects using kidsloop-branding before the Github migration, change the line in your `package.json` from
+
+```text
+"kidsloop-branding": "bitbucket:calmisland/kidsloop-branding#1.0.0"
 ```
 
-where `tag` corresponds to the desired version.
+to
 
-NB: If you haven't already setup SSH keys with Bitbucket, follow the Bitbucket [instructions](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/).
+```text
+"@kl-engineering/kidsloop-branding": "1.0.0"
+```
+
+For new projects, run
+
+```shell
+npm i -E @kl-engineering/kidsloop-branding
+```
 
 ### Setup
 
 Add the following to your Webpack configuration.
 
 ```javascript
-const { loadBrandingOptions } = require("kidsloop-branding");
+const { loadBrandingOptions } = require("@kl-engineering/kidsloop-branding");
 
 const brandingOptions = loadBrandingOptions(process.env.BRAND);
 
@@ -46,6 +56,7 @@ process.env.BRAND can be one of:
 
 -   "KIDSLOOP"
 -   "RUMAH_KISAH"
+-   "AKADEMIMU"
 -   undefined
 
 `undefined` will use the default brand (which is "KIDSLOOP")
@@ -70,13 +81,13 @@ which could be used in the `<title>` tag.
 
 ### Usage
 
-`@branding` is set in the Webpack configuration shown in setup, and resolves to the `kidsloop-branding/dist/brands/${BRAND}` directory.
+`@branding` is set in the Webpack configuration shown in setup, and resolves to the `@kl-engineering/kidsloop-branding/dist/brands/${BRAND}` directory.
 
 This allows for simple import paths, which don't need to contain any logic about the current brand, as the complexity is handled by the `kidsloop-branding` library and the Webpack alias.
 
 For example, if `loadBrandingOptions("RUMAH_KISAH")` is used in the Webpack config,
-`@branding/assets/img/primary_logo.svg` resolves to `kidsloop-branding/dist/brands/rumahkisah/assets/img/primary_logo.svg`,
-and `@branding` resolves to `kidsloop-branding/dist/brands/rumahkisah/index.js`.
+`@branding/assets/img/primary_logo.svg` resolves to `@kl-engineering/kidsloop-branding/dist/brands/rumahkisah/assets/img/primary_logo.svg`,
+and `@branding` resolves to `@kl-engineering/kidsloop-branding/dist/brands/rumahkisah/index.js`.
 
 The `BrandingOptions` object (containing company name etc.) is also exported from the brand `index.js`,
 and available to use in your components.
