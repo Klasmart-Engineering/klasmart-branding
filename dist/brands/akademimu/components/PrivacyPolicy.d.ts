@@ -1,5 +1,5 @@
 import React from "react";
-import { LinkProps } from "@mui/material";
+import { LinkProps } from "@mui/material/Link";
 import { PrivacyVariant } from "~types";
 declare type IPrivacyPolicy = React.FC<LinkProps> & {
     variant: PrivacyVariant;
