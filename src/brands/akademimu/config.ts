@@ -18,7 +18,7 @@ const config: BrandingOptions = {
         html: {
             companyName: "Akademimu",
             favicon:
-                "./node_modules/kidsloop-branding/dist/brands/akademimu/assets/img/primary_logo.svg",
+                "./node_modules/@kl-engineering/kidsloop-branding/dist/brands/akademimu/assets/img/primary_logo.svg",
             meta: {
                 author: "Akademimu",
                 "og:image": {
@@ -30,7 +30,8 @@ const config: BrandingOptions = {
         },
         resolve: {
             alias: {
-                "@branding": "kidsloop-branding/dist/brands/akademimu",
+                "@branding":
+                    "@kl-engineering/kidsloop-branding/dist/brands/akademimu",
             },
         },
     },

@@ -9,7 +9,7 @@ import { default as AkademimuConfig } from "./brands/akademimu/config";
 
 export { BrandingError };
 
-const debug = Debug("kidsloop-branding");
+const debug = Debug("@kl-engineering/kidsloop-branding");
 
 export function loadBrandingOptions(
     brand: string | undefined
