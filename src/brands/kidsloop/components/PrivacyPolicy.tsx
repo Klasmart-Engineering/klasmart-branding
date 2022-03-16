@@ -1,5 +1,4 @@
-import Grid from "@material-ui/core/Grid";
-import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import { Grid } from "@mui/material";
 import React from "react";
 import { PrivacyVariant } from "~types";
 import { Paragraph, Title, List } from "../../../base/components/typography";
@@ -8,11 +7,7 @@ type IPrivacyPolicy = React.FC & {
     variant: PrivacyVariant;
 };
 
-const useStyles = makeStyles((theme: Theme) => createStyles({}));
-
 const PrivacyPolicy: IPrivacyPolicy = () => {
-    const classes = useStyles();
-
     return (
         <Grid container direction="column" spacing={2}>
             <Paragraph>
