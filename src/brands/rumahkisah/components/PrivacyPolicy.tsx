@@ -1,8 +1,5 @@
 import React from "react";
-import {
-    Link,
-    LinkProps
-} from "@mui/material";
+import Link, { LinkProps } from "@mui/material/Link";
 import { PrivacyVariant } from "~types";
 
 import config from "../config";

@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import Grid from "@mui/material/Grid";
 import React from "react";
 import { PrivacyVariant } from "~types";
 import { Paragraph, Title, List } from "../../../base/components/typography";
