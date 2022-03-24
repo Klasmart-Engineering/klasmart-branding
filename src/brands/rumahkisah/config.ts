@@ -2,36 +2,34 @@ import { BrandingOptions } from "~types";
 
 const config: BrandingOptions = {
     company: {
-        name: "Rumah Kisah",
+        name: `Rumah Kisah`,
     },
-    defaultLocale: "id",
+    defaultLocale: `id`,
     policies: {
-        privacy: new URL("https://rumahkisah.id/kl-privacy-policy/"),
-        termsAndConditions: new URL(
-            "https://rumahkisah.id/kl-terms-and-conditions"
-        ),
+        privacy: new URL(`https://rumahkisah.id/kl-privacy-policy/`),
+        termsAndConditions: new URL(`https://rumahkisah.id/kl-terms-and-conditions`),
     },
     auth: {
         showRegionSelect: false,
     },
     webpack: {
         html: {
-            companyName: "Rumah Kisah",
+            companyName: `Rumah Kisah`,
             favicon:
-                "./node_modules/@kl-engineering/kidsloop-branding/dist/brands/rumahkisah/assets/img/primary_logo.svg",
+                `./node_modules/@kl-engineering/kidsloop-branding/dist/brands/rumahkisah/assets/img/primary_logo.svg`,
             meta: {
-                author: "Rumah Kisah",
+                author: `Rumah Kisah`,
                 "og:image": {
-                    property: "og:image",
+                    property: `og:image`,
                     content:
-                        "https://rumahkisah.id/wp-content/uploads/2020/08/logo-dark.svg",
+                        `https://rumahkisah.id/wp-content/uploads/2020/08/logo-dark.svg`,
                 },
             },
         },
         resolve: {
             alias: {
                 "@branding":
-                    "@kl-engineering/kidsloop-branding/dist/brands/rumahkisah",
+                    `@kl-engineering/kidsloop-branding/dist/brands/rumahkisah`,
             },
         },
     },

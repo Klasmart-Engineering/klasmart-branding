@@ -1,7 +1,11 @@
+import {
+    List,
+    Paragraph,
+    Title,
+} from "../../../base/components/typography";
 import Grid from "@mui/material/Grid";
-import React from "react";
 import { PrivacyVariant } from "~types";
-import { Paragraph, Title, List } from "../../../base/components/typography";
+import React from "react";
 
 type IPrivacyPolicy = React.FC & {
     variant: PrivacyVariant;
@@ -9,7 +13,11 @@ type IPrivacyPolicy = React.FC & {
 
 const PrivacyPolicy: IPrivacyPolicy = () => {
     return (
-        <Grid container direction="column" spacing={2}>
+        <Grid
+            container
+            direction="column"
+            spacing={2}
+        >
             <Paragraph>
                 This privacy notice explains our practices, your choices
                 regarding the collection, use, and disclosure of certain
@@ -23,7 +31,7 @@ const PrivacyPolicy: IPrivacyPolicy = () => {
                 specifically about this privacy notice or our use of your
                 personal information, cookies or similar technology, please
                 contact our Data Protection Officer, <i>Ethan, HeeSeob Jeong</i>
-                , by email at{" "}
+                , by email at{` `}
                 <a href="mailto:calm_privacy@calmid.com">
                     calm_privacy@calmid.com
                 </a>
@@ -579,5 +587,5 @@ const PrivacyPolicy: IPrivacyPolicy = () => {
     );
 };
 
-PrivacyPolicy.variant = "popup";
+PrivacyPolicy.variant = `popup`;
 export default PrivacyPolicy;

@@ -32,12 +32,14 @@
         ]
     },
     "include": [
-        "src/**/*",
-        "**.js"
+        ".eslintrc.js",
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx"
     ],
     "exclude": [
         "node_modules",
-        "dist",
         "src/**/*.test.ts",
         "src/**/*.test.tsx"
     ]

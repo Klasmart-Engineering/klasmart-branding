@@ -2,36 +2,34 @@ import { BrandingOptions } from "~types";
 
 const config: BrandingOptions = {
     company: {
-        name: "Akademimu",
+        name: `Akademimu`,
     },
-    defaultLocale: "id",
+    defaultLocale: `id`,
     policies: {
-        privacy: new URL("https://akademimu.com/kl-privacy-policy/"),
-        termsAndConditions: new URL(
-            "https://akademimu.com/kl-terms-and-conditions"
-        ),
+        privacy: new URL(`https://akademimu.com/kl-privacy-policy/`),
+        termsAndConditions: new URL(`https://akademimu.com/kl-terms-and-conditions`),
     },
     auth: {
         showRegionSelect: false,
     },
     webpack: {
         html: {
-            companyName: "Akademimu",
+            companyName: `Akademimu`,
             favicon:
-                "./node_modules/@kl-engineering/kidsloop-branding/dist/brands/akademimu/assets/img/primary_logo.svg",
+                `./node_modules/@kl-engineering/kidsloop-branding/dist/brands/akademimu/assets/img/primary_logo.svg`,
             meta: {
-                author: "Akademimu",
+                author: `Akademimu`,
                 "og:image": {
-                    property: "og:image",
+                    property: `og:image`,
                     content:
-                        "https://klid-akd.s3.ap-southeast-1.amazonaws.com/50pxlogo-sang-surya-akademimu-convert.png",
+                        `https://klid-akd.s3.ap-southeast-1.amazonaws.com/50pxlogo-sang-surya-akademimu-convert.png`,
                 },
             },
         },
         resolve: {
             alias: {
                 "@branding":
-                    "@kl-engineering/kidsloop-branding/dist/brands/akademimu",
+                    `@kl-engineering/kidsloop-branding/dist/brands/akademimu`,
             },
         },
     },

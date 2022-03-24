@@ -1,8 +1,0 @@
-{
-    "emailOrPhone.label": "Email",
-    "emailOrPhone.empty": "Nhập email",
-    "emailOrPhone.required": "Email không thể để trống",
-    "emailOrPhone.invalid": "Email không hợp lệ",
-    "ERROR_INPUT_INVALID_FORMAT": "Bạn đã không nhập email hợp lệ",
-    "copyright": "Rumah Kisah được cung cấp bởi KidsLoop Limited (bản quyền © {year} )."
-}

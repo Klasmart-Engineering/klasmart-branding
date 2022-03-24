@@ -1,8 +1,8 @@
-import React from "react";
-import Link, { LinkProps } from "@mui/material/Link";
-import { PrivacyVariant } from "~types";
-
 import config from "../config";
+import Link,
+{ LinkProps } from "@mui/material/Link";
+import { PrivacyVariant } from "~types";
+import React from "react";
 
 type IPrivacyPolicy = React.FC<LinkProps> & {
     variant: PrivacyVariant;
@@ -15,9 +15,9 @@ const PrivacyPolicy: IPrivacyPolicy = (props) => {
             target="_blank"
             rel="noopener"
             {...props}
-        ></Link>
+        />
     );
 };
 
-PrivacyPolicy.variant = "link";
+PrivacyPolicy.variant = `link`;
 export default PrivacyPolicy;

@@ -9,10 +9,10 @@
         "build:js": "webpack",
         "build:types": "tsc --emitDeclarationOnly",
         "clean": "rm -r ./dist",
+        "lint": "eslint .",
         "start": "webpack serve",
-        "preversion": "git checkout master && git pull origin master && npm i",
-        "version": "npm run clean && npm run build && git add -A dist",
-        "postversion": "git push && git push --tags"
+        "release": "standard-version",
+        "prepare": "husky install"
     },
     "license": "ISC",
     "peerDependencies": {
@@ -23,6 +23,10 @@
         "react-dom": "^17.0.0"
     },
     "devDependencies": {
+        "@commitlint/cli": "16.2.3",
+        "@commitlint/config-conventional": "16.2.1",
+        "@kl-engineering/eslint-config": "2.0.3",
+        "@rushstack/eslint-patch": "1.1.1",
         "@types/copy-webpack-plugin": "8.0.0",
         "@types/debug": "4.1.5",
         "@types/webpack": "4.41.29",
@@ -30,11 +34,13 @@
         "@types/webpack-node-externals": "2.5.1",
         "@webpack-cli/generators": "2.2.0",
         "copy-webpack-plugin": "9.0.0",
-        "eslint": "7.28.0",
+        "eslint": "8.11.0",
+        "husky": "^7.0.0",
         "prettier": "2.3.1",
+        "standard-version": "9.3.2",
         "ts-loader": "^9.2.3",
         "ts-node": "10.0.0",
-        "typescript": "4.3.4",
+        "typescript": "4.6.2",
         "webpack": "^5.39.1",
         "webpack-cli": "^4.7.2",
         "webpack-dev-server": "^3.11.2",

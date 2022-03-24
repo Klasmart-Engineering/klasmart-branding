@@ -2,38 +2,33 @@ import { BrandingOptions } from "~types";
 
 const config: BrandingOptions = {
     company: {
-        name: "KidsLoop",
+        name: `KidsLoop`,
     },
-    defaultLocale: "en",
+    defaultLocale: `en`,
     policies: {
-        help: new URL("https://www.kidsloop.net/en/faq/"),
-        refund: new URL("https://kidsloop.net/en/policies/return-policy/"),
-        privacy: new URL("https://www.kidsloop.net/policies/terms/"),
-        termsAndConditions: new URL(
-            "https://www.kidsloop.net/policies/privacy-notice/"
-        ),
+        help: new URL(`https://www.kidsloop.net/en/faq/`),
+        refund: new URL(`https://kidsloop.net/en/policies/return-policy/`),
+        privacy: new URL(`https://www.kidsloop.net/policies/terms/`),
+        termsAndConditions: new URL(`https://www.kidsloop.net/policies/privacy-notice/`),
     },
     auth: {
         showRegionSelect: true,
     },
     webpack: {
         html: {
-            companyName: "KidsLoop",
-            favicon:
-                "./node_modules/@kl-engineering/kidsloop-branding/dist/brands/kidsloop/assets/img/primary_logo.svg",
+            companyName: `KidsLoop`,
+            favicon: `./node_modules/@kl-engineering/kidsloop-branding/dist/brands/kidsloop/assets/img/primary_logo.svg`,
             meta: {
-                author: "KidsLoop Limited",
+                author: `KidsLoop Limited`,
                 "og:image": {
-                    property: "og:image",
-                    content:
-                        "https://www.kidsloop.net/wp-content/uploads/2020/09/Asset-1.svg",
+                    property: `og:image`,
+                    content: `https://www.kidsloop.net/wp-content/uploads/2020/09/Asset-1.svg`,
                 },
             },
         },
         resolve: {
             alias: {
-                "@branding":
-                    "@kl-engineering/kidsloop-branding/dist/brands/kidsloop",
+                "@branding": `@kl-engineering/kidsloop-branding/dist/brands/kidsloop`,
             },
         },
     },

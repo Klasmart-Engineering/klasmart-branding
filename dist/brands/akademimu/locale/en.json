@@ -1,8 +1,0 @@
-{
-    "emailOrPhone.label": "Email",
-    "emailOrPhone.empty": "Enter an email",
-    "emailOrPhone.required": "Email cannot be blank",
-    "emailOrPhone.invalid": "Not a valid email",
-    "ERROR_INPUT_INVALID_FORMAT": "You didn't enter a valid email",
-    "copyright": "Akademimu powered by KidsLoop Limited (copyright © {year})."
-}
