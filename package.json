@@ -1,6 +1,6 @@
 {
     "name": "@kl-engineering/kidsloop-branding",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "description": "Branding specific to Kidsloop clients",
     "main": "dist/index.js",
     "types": "types/index.d.ts",

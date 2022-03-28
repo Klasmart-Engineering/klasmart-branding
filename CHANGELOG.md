@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.5](https://github.com/KL-Engineering/kidsloop-branding/compare/v2.0.4...v2.0.5) (2022-03-28)
+
+
+### 🐛 Bug Fixes
+
+* tsconfig rootDir error ([dd5e53a](https://github.com/KL-Engineering/kidsloop-branding/commit/dd5e53ad9765d617b66f1f742e7d81366defc6ce))
+
 ### [2.0.4](https://github.com/KL-Engineering/kidsloop-branding/compare/v2.0.3...v2.0.4) (2022-03-24)
 
 ### [2.0.3](https://github.com/KL-Engineering/kidsloop-branding/compare/v2.0.2...v2.0.3) (2022-03-24)
