@@ -2,7 +2,7 @@
 .github
 .husky
 .npmrc
-.versionrc
+.versionrc.js
 bitbucket-pipelines.yml
 commitlint.config.js
 package-lock.json
