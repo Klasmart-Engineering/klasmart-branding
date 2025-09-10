@@ -2,6 +2,66 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.11](https://github.com/KL-Engineering/kidsloop-branding/branches/compare/v2.0.11%0Dv2.0.5) (2025-09-10)
+
+
+### ⚙️ Continuous Integrations
+
+* add conventional pr title workflow ([cf323a1](https://github.com/KL-Engineering/kidsloop-branding/commits/cf323a10346094c45744c4b1fffec7e30fd64059))
+* add reusable workflows ([116140c](https://github.com/KL-Engineering/kidsloop-branding/commits/116140c01c0ec82d8e2c0ea40074e305143f4d60))
+* remove edited event type trigger from pr workflow ([c53a223](https://github.com/KL-Engineering/kidsloop-branding/commits/c53a223a9194325366fec8346b2d0746ce6b2b18))
+* separate pr workflows for meta info and commits ([afb0910](https://github.com/KL-Engineering/kidsloop-branding/commits/afb09102c556ef097b7175c5c90a04db7e399bc0))
+
+### [2.0.10](https://github.com/KL-Engineering/kidsloop-branding/branches/compare/v2.0.10%0Dv2.0.5) (2025-09-10)
+
+
+### ⚙️ Continuous Integrations
+
+* add conventional pr title workflow ([cf323a1](https://github.com/KL-Engineering/kidsloop-branding/commits/cf323a10346094c45744c4b1fffec7e30fd64059))
+* add reusable workflows ([116140c](https://github.com/KL-Engineering/kidsloop-branding/commits/116140c01c0ec82d8e2c0ea40074e305143f4d60))
+* remove edited event type trigger from pr workflow ([c53a223](https://github.com/KL-Engineering/kidsloop-branding/commits/c53a223a9194325366fec8346b2d0746ce6b2b18))
+* separate pr workflows for meta info and commits ([afb0910](https://github.com/KL-Engineering/kidsloop-branding/commits/afb09102c556ef097b7175c5c90a04db7e399bc0))
+
+### [2.0.9](https://github.com/KL-Engineering/kidsloop-branding/branches/compare/v2.0.9%0Dv2.0.5) (2025-09-10)
+
+
+### ⚙️ Continuous Integrations
+
+* add conventional pr title workflow ([cf323a1](https://github.com/KL-Engineering/kidsloop-branding/commits/cf323a10346094c45744c4b1fffec7e30fd64059))
+* add reusable workflows ([116140c](https://github.com/KL-Engineering/kidsloop-branding/commits/116140c01c0ec82d8e2c0ea40074e305143f4d60))
+* remove edited event type trigger from pr workflow ([c53a223](https://github.com/KL-Engineering/kidsloop-branding/commits/c53a223a9194325366fec8346b2d0746ce6b2b18))
+* separate pr workflows for meta info and commits ([afb0910](https://github.com/KL-Engineering/kidsloop-branding/commits/afb09102c556ef097b7175c5c90a04db7e399bc0))
+
+### [2.0.8](https://github.com/KL-Engineering/kidsloop-branding/branches/compare/v2.0.8%0Dv2.0.5) (2025-09-10)
+
+
+### ⚙️ Continuous Integrations
+
+* add conventional pr title workflow ([cf323a1](https://github.com/KL-Engineering/kidsloop-branding/commits/cf323a10346094c45744c4b1fffec7e30fd64059))
+* add reusable workflows ([116140c](https://github.com/KL-Engineering/kidsloop-branding/commits/116140c01c0ec82d8e2c0ea40074e305143f4d60))
+* remove edited event type trigger from pr workflow ([c53a223](https://github.com/KL-Engineering/kidsloop-branding/commits/c53a223a9194325366fec8346b2d0746ce6b2b18))
+* separate pr workflows for meta info and commits ([afb0910](https://github.com/KL-Engineering/kidsloop-branding/commits/afb09102c556ef097b7175c5c90a04db7e399bc0))
+
+### [2.0.7](https://github.com/KL-Engineering/kidsloop-branding/branches/compare/v2.0.7%0Dv2.0.5) (2025-09-10)
+
+
+### ⚙️ Continuous Integrations
+
+* add conventional pr title workflow ([cf323a1](https://github.com/KL-Engineering/kidsloop-branding/commits/cf323a10346094c45744c4b1fffec7e30fd64059))
+* add reusable workflows ([116140c](https://github.com/KL-Engineering/kidsloop-branding/commits/116140c01c0ec82d8e2c0ea40074e305143f4d60))
+* remove edited event type trigger from pr workflow ([c53a223](https://github.com/KL-Engineering/kidsloop-branding/commits/c53a223a9194325366fec8346b2d0746ce6b2b18))
+* separate pr workflows for meta info and commits ([afb0910](https://github.com/KL-Engineering/kidsloop-branding/commits/afb09102c556ef097b7175c5c90a04db7e399bc0))
+
+### [2.0.6](https://github.com/KL-Engineering/kidsloop-branding/branches/compare/v2.0.6%0Dv2.0.5) (2025-09-10)
+
+
+### ⚙️ Continuous Integrations
+
+* add conventional pr title workflow ([cf323a1](https://github.com/KL-Engineering/kidsloop-branding/commits/cf323a10346094c45744c4b1fffec7e30fd64059))
+* add reusable workflows ([116140c](https://github.com/KL-Engineering/kidsloop-branding/commits/116140c01c0ec82d8e2c0ea40074e305143f4d60))
+* remove edited event type trigger from pr workflow ([c53a223](https://github.com/KL-Engineering/kidsloop-branding/commits/c53a223a9194325366fec8346b2d0746ce6b2b18))
+* separate pr workflows for meta info and commits ([afb0910](https://github.com/KL-Engineering/kidsloop-branding/commits/afb09102c556ef097b7175c5c90a04db7e399bc0))
+
 ### [2.0.5](https://github.com/KL-Engineering/kidsloop-branding/compare/v2.0.4...v2.0.5) (2022-03-28)
 
 
