@@ -1,6 +1,6 @@
 {
     "name": "@klasmart-engineering/klasmart-branding",
-    "version": "2.0.11",
+    "version": "2.0.12",
     "description": "Branding specific to Klasmart clients",
     "main": "dist/index.js",
     "types": "types/index.d.ts",
@@ -51,7 +51,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KL-Engineering/kidsloop-branding"
+        "url": "git+https://github.com/Klasmart-Engineering/klasmart-branding"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"

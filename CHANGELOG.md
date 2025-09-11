@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.12](https://github.com/Klasmart-Engineering/klasmart-branding/branches/compare/v2.0.12%0Dv2.0.11) (2025-09-11)
+
 ### [2.0.11](https://github.com/KL-Engineering/kidsloop-branding/branches/compare/v2.0.11%0Dv2.0.5) (2025-09-10)
 
 
