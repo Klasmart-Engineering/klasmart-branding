@@ -7,7 +7,7 @@ import Debug from "debug";
 
 export { BrandingError };
 
-const debug = Debug(`@kl-engineering/kidsloop-branding`);
+const debug = Debug(`@klasmart-engineering/klasmart-branding`);
 
 export function loadBrandingOptions (brand: string | undefined): BrandingOptions {
     switch (brand) {

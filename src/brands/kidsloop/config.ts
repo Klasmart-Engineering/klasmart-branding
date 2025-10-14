@@ -17,7 +17,7 @@ const config: BrandingOptions = {
     webpack: {
         html: {
             companyName: `KidsLoop`,
-            favicon: `./node_modules/@kl-engineering/kidsloop-branding/dist/brands/kidsloop/assets/img/primary_logo.svg`,
+            favicon: `./node_modules/@klasmart-engineering/klasmart-branding/dist/brands/kidsloop/assets/img/primary_logo.svg`,
             meta: {
                 author: `KidsLoop Limited`,
                 "og:image": {
@@ -28,7 +28,7 @@ const config: BrandingOptions = {
         },
         resolve: {
             alias: {
-                "@branding": `@kl-engineering/kidsloop-branding/dist/brands/kidsloop`,
+                "@branding": `@klasmart-engineering/klasmart-branding/dist/brands/kidsloop`,
             },
         },
     },

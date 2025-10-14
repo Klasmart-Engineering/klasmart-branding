@@ -3,7 +3,7 @@
 require(`@rushstack/eslint-patch/modern-module-resolution`);
 
 module.exports = {
-    extends: [ `@kl-engineering/eslint-config/react`, `@kl-engineering/eslint-config/jest/react` ],
+    extends: [ `@klasmart-engineering/eslint-config/react`, `@klasmart-engineering/eslint-config/jest/react` ],
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
@@ -11,5 +11,16 @@ module.exports = {
         ecmaVersion: 12,
         sourceType: `module`,
         project: `tsconfig.json`,
+    },
+    ignorePatterns: [ `dist/`, `types/` ], // ⬅️ prevent linting build outputs
+    rules: {
+        // ⬅️ overrides or custom rules
+        "@typescript-eslint/naming-convention": [
+            `error`,
+            {
+                selector: `property`,
+                format: null, // allow any property names
+            },
+        ],
     },
 };

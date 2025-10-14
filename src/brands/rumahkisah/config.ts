@@ -16,7 +16,7 @@ const config: BrandingOptions = {
         html: {
             companyName: `Rumah Kisah`,
             favicon:
-                `./node_modules/@kl-engineering/kidsloop-branding/dist/brands/rumahkisah/assets/img/primary_logo.svg`,
+                `./node_modules/@klasmart-engineering/klasmart-branding/dist/brands/rumahkisah/assets/img/primary_logo.svg`,
             meta: {
                 author: `Rumah Kisah`,
                 "og:image": {
@@ -29,7 +29,7 @@ const config: BrandingOptions = {
         resolve: {
             alias: {
                 "@branding":
-                    `@kl-engineering/kidsloop-branding/dist/brands/rumahkisah`,
+                    `@klasmart-engineering/klasmart-branding/dist/brands/rumahkisah`,
             },
         },
     },

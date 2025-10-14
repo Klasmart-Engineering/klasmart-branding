@@ -30,7 +30,7 @@ const config: Configuration = {
         path: outputDir,
         globalObject: `this`,
         libraryTarget: `umd`,
-        library: `@kl-engineering/kidsloop-branding`,
+        library: `@klasmart-engineering/klasmart-branding`,
     },
     devServer: isDev
         ? {
