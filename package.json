@@ -1,6 +1,6 @@
 {
     "name": "@klasmart-engineering/klasmart-branding",
-    "version": "2.0.12",
+    "version": "2.0.13",
     "description": "Branding specific to Klasmart clients",
     "main": "dist/index.js",
     "types": "types/index.d.ts",
